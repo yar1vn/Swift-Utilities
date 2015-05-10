@@ -10,6 +10,18 @@
 		095AC6301B002679002D74CF /* Swiftilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 095AC62F1B002679002D74CF /* Swiftilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		095AC6361B002679002D74CF /* Swiftilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095AC62A1B002679002D74CF /* Swiftilities.framework */; };
 		095AC63D1B002679002D74CF /* SwiftilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC63C1B002679002D74CF /* SwiftilitiesTests.swift */; };
+		095AC6531B00273D002D74CF /* NSURL+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6461B00273D002D74CF /* NSURL+.swift */; };
+		095AC6541B00273D002D74CF /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6471B00273D002D74CF /* String+.swift */; };
+		095AC6561B00273D002D74CF /* UIActivityIndicatorView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6491B00273D002D74CF /* UIActivityIndicatorView+.swift */; };
+		095AC6571B00273D002D74CF /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64A1B00273D002D74CF /* UIAlertController+.swift */; };
+		095AC6581B00273D002D74CF /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64B1B00273D002D74CF /* UIColor+.swift */; };
+		095AC6591B00273D002D74CF /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64C1B00273D002D74CF /* UILabel+.swift */; };
+		095AC65A1B00273D002D74CF /* UINavigationController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64D1B00273D002D74CF /* UINavigationController+.swift */; };
+		095AC65B1B00273D002D74CF /* UIPageController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64E1B00273D002D74CF /* UIPageController+.swift */; };
+		095AC65C1B00273D002D74CF /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC64F1B00273D002D74CF /* UITableViewCell+.swift */; };
+		095AC65D1B00273D002D74CF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6501B00273D002D74CF /* UIView+.swift */; };
+		095AC65E1B00273D002D74CF /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6511B00273D002D74CF /* UIViewController+.swift */; };
+		095AC65F1B00273D002D74CF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6521B00273D002D74CF /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		095AC6351B002679002D74CF /* SwiftilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftilitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095AC63B1B002679002D74CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		095AC63C1B002679002D74CF /* SwiftilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftilitiesTests.swift; sourceTree = "<group>"; };
+		095AC6461B00273D002D74CF /* NSURL+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+.swift"; sourceTree = "<group>"; };
+		095AC6471B00273D002D74CF /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		095AC6491B00273D002D74CF /* UIActivityIndicatorView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+.swift"; sourceTree = "<group>"; };
+		095AC64A1B00273D002D74CF /* UIAlertController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
+		095AC64B1B00273D002D74CF /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		095AC64C1B00273D002D74CF /* UILabel+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
+		095AC64D1B00273D002D74CF /* UINavigationController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+.swift"; sourceTree = "<group>"; };
+		095AC64E1B00273D002D74CF /* UIPageController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageController+.swift"; sourceTree = "<group>"; };
+		095AC64F1B00273D002D74CF /* UITableViewCell+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+.swift"; sourceTree = "<group>"; };
+		095AC6501B00273D002D74CF /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		095AC6511B00273D002D74CF /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		095AC6521B00273D002D74CF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				095AC62F1B002679002D74CF /* Swiftilities.h */,
+				095AC6601B002745002D74CF /* Extensions */,
 				095AC62D1B002679002D74CF /* Supporting Files */,
 			);
 			path = Swiftilities;
@@ -100,6 +125,25 @@
 				095AC63B1B002679002D74CF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		095AC6601B002745002D74CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				095AC6461B00273D002D74CF /* NSURL+.swift */,
+				095AC6471B00273D002D74CF /* String+.swift */,
+				095AC6491B00273D002D74CF /* UIActivityIndicatorView+.swift */,
+				095AC64A1B00273D002D74CF /* UIAlertController+.swift */,
+				095AC64B1B00273D002D74CF /* UIColor+.swift */,
+				095AC64C1B00273D002D74CF /* UILabel+.swift */,
+				095AC64D1B00273D002D74CF /* UINavigationController+.swift */,
+				095AC64E1B00273D002D74CF /* UIPageController+.swift */,
+				095AC64F1B00273D002D74CF /* UITableViewCell+.swift */,
+				095AC6501B00273D002D74CF /* UIView+.swift */,
+				095AC6511B00273D002D74CF /* UIViewController+.swift */,
+				095AC6521B00273D002D74CF /* Utilities.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AC65C1B00273D002D74CF /* UITableViewCell+.swift in Sources */,
+				095AC65A1B00273D002D74CF /* UINavigationController+.swift in Sources */,
+				095AC6591B00273D002D74CF /* UILabel+.swift in Sources */,
+				095AC6571B00273D002D74CF /* UIAlertController+.swift in Sources */,
+				095AC65D1B00273D002D74CF /* UIView+.swift in Sources */,
+				095AC6541B00273D002D74CF /* String+.swift in Sources */,
+				095AC65F1B00273D002D74CF /* Utilities.swift in Sources */,
+				095AC65B1B00273D002D74CF /* UIPageController+.swift in Sources */,
+				095AC6531B00273D002D74CF /* NSURL+.swift in Sources */,
+				095AC65E1B00273D002D74CF /* UIViewController+.swift in Sources */,
+				095AC6561B00273D002D74CF /* UIActivityIndicatorView+.swift in Sources */,
+				095AC6581B00273D002D74CF /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +379,7 @@
 		095AC6411B002679002D74CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -332,12 +389,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		095AC6421B002679002D74CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
