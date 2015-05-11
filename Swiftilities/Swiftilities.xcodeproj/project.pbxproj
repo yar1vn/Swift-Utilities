@@ -22,6 +22,16 @@
 		095AC65D1B00273D002D74CF /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6501B00273D002D74CF /* UIView+.swift */; };
 		095AC65E1B00273D002D74CF /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6511B00273D002D74CF /* UIViewController+.swift */; };
 		095AC65F1B00273D002D74CF /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6521B00273D002D74CF /* Utilities.swift */; };
+		095AC6621B0027F4002D74CF /* Button_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6611B0027F4002D74CF /* Button_.swift */; };
+		095AC6671B00284A002D74CF /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6641B00284A002D74CF /* Cache.swift */; };
+		095AC6681B00284A002D74CF /* JSON Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6651B00284A002D74CF /* JSON Parsing.swift */; };
+		095AC6691B00284A002D74CF /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6661B00284A002D74CF /* Serializable.swift */; };
+		095AC66D1B0028AC002D74CF /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC66C1B0028AC002D74CF /* Request.swift */; };
+		095AC66F1B002A0C002D74CF /* DateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC66E1B002A0C002D74CF /* DateGenerator.swift */; };
+		095AC6711B002A9B002D74CF /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6701B002A9B002D74CF /* Distance.swift */; };
+		095AC6731B002AC7002D74CF /* CustomSegues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6721B002AC7002D74CF /* CustomSegues.swift */; };
+		095AC6751B002B3F002D74CF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6741B002B3F002D74CF /* PageViewController.swift */; };
+		095AC6781B002C3A002D74CF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095AC6771B002C3A002D74CF /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,16 @@
 		095AC6501B00273D002D74CF /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		095AC6511B00273D002D74CF /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		095AC6521B00273D002D74CF /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		095AC6611B0027F4002D74CF /* Button_.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button_.swift; sourceTree = "<group>"; };
+		095AC6641B00284A002D74CF /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		095AC6651B00284A002D74CF /* JSON Parsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSON Parsing.swift"; sourceTree = "<group>"; };
+		095AC6661B00284A002D74CF /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		095AC66C1B0028AC002D74CF /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		095AC66E1B002A0C002D74CF /* DateGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateGenerator.swift; sourceTree = "<group>"; };
+		095AC6701B002A9B002D74CF /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		095AC6721B002AC7002D74CF /* CustomSegues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegues.swift; sourceTree = "<group>"; };
+		095AC6741B002B3F002D74CF /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		095AC6771B002C3A002D74CF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				095AC62F1B002679002D74CF /* Swiftilities.h */,
+				095AC6761B002B4B002D74CF /* View Controllers */,
+				095AC66A1B002850002D74CF /* Custom Types */,
+				095AC66B1B00285C002D74CF /* Serializing */,
+				095AC6631B0027FB002D74CF /* Views */,
 				095AC6601B002745002D74CF /* Extensions */,
 				095AC62D1B002679002D74CF /* Supporting Files */,
 			);
@@ -144,6 +168,44 @@
 				095AC6521B00273D002D74CF /* Utilities.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		095AC6631B0027FB002D74CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				095AC6611B0027F4002D74CF /* Button_.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		095AC66A1B002850002D74CF /* Custom Types */ = {
+			isa = PBXGroup;
+			children = (
+				095AC6721B002AC7002D74CF /* CustomSegues.swift */,
+				095AC6641B00284A002D74CF /* Cache.swift */,
+				095AC66C1B0028AC002D74CF /* Request.swift */,
+				095AC66E1B002A0C002D74CF /* DateGenerator.swift */,
+				095AC6701B002A9B002D74CF /* Distance.swift */,
+			);
+			name = "Custom Types";
+			sourceTree = "<group>";
+		};
+		095AC66B1B00285C002D74CF /* Serializing */ = {
+			isa = PBXGroup;
+			children = (
+				095AC6651B00284A002D74CF /* JSON Parsing.swift */,
+				095AC6661B00284A002D74CF /* Serializable.swift */,
+			);
+			name = Serializing;
+			sourceTree = "<group>";
+		};
+		095AC6761B002B4B002D74CF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				095AC6741B002B3F002D74CF /* PageViewController.swift */,
+				095AC6771B002C3A002D74CF /* WebViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,15 +315,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095AC6671B00284A002D74CF /* Cache.swift in Sources */,
+				095AC6781B002C3A002D74CF /* WebViewController.swift in Sources */,
 				095AC65C1B00273D002D74CF /* UITableViewCell+.swift in Sources */,
 				095AC65A1B00273D002D74CF /* UINavigationController+.swift in Sources */,
+				095AC66F1B002A0C002D74CF /* DateGenerator.swift in Sources */,
 				095AC6591B00273D002D74CF /* UILabel+.swift in Sources */,
+				095AC6691B00284A002D74CF /* Serializable.swift in Sources */,
 				095AC6571B00273D002D74CF /* UIAlertController+.swift in Sources */,
 				095AC65D1B00273D002D74CF /* UIView+.swift in Sources */,
+				095AC66D1B0028AC002D74CF /* Request.swift in Sources */,
 				095AC6541B00273D002D74CF /* String+.swift in Sources */,
+				095AC6681B00284A002D74CF /* JSON Parsing.swift in Sources */,
+				095AC6711B002A9B002D74CF /* Distance.swift in Sources */,
+				095AC6621B0027F4002D74CF /* Button_.swift in Sources */,
 				095AC65F1B00273D002D74CF /* Utilities.swift in Sources */,
 				095AC65B1B00273D002D74CF /* UIPageController+.swift in Sources */,
 				095AC6531B00273D002D74CF /* NSURL+.swift in Sources */,
+				095AC6751B002B3F002D74CF /* PageViewController.swift in Sources */,
+				095AC6731B002AC7002D74CF /* CustomSegues.swift in Sources */,
 				095AC65E1B00273D002D74CF /* UIViewController+.swift in Sources */,
 				095AC6561B00273D002D74CF /* UIActivityIndicatorView+.swift in Sources */,
 				095AC6581B00273D002D74CF /* UIColor+.swift in Sources */,

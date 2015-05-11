@@ -1,6 +1,6 @@
 //
 //  UIViewController+.swift
-//  Swift-Utilities
+//  Swiftilities
 //
 //  Created by Yariv on 12/4/14.
 //  Copyright (c) 2014 Yariv. All rights reserved.

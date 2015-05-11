@@ -1,6 +1,6 @@
 //
 //  UIAlertController+.swift
-//  Swift-Utilities
+//  Swiftilities
 //
 //  Created by Yariv on 1/15/15.
 //  Copyright (c) 2015 Yariv. All rights reserved.
