@@ -118,7 +118,7 @@
 				095AC62F1B002679002D74CF /* Swiftilities.h */,
 				095AC6761B002B4B002D74CF /* View Controllers */,
 				095AC66A1B002850002D74CF /* Custom Types */,
-				095AC66B1B00285C002D74CF /* Serializing */,
+				095AC66B1B00285C002D74CF /* JSON & Serialization */,
 				095AC6631B0027FB002D74CF /* Views */,
 				095AC6601B002745002D74CF /* Extensions */,
 				095AC62D1B002679002D74CF /* Supporting Files */,
@@ -190,13 +190,13 @@
 			name = "Custom Types";
 			sourceTree = "<group>";
 		};
-		095AC66B1B00285C002D74CF /* Serializing */ = {
+		095AC66B1B00285C002D74CF /* JSON & Serialization */ = {
 			isa = PBXGroup;
 			children = (
 				095AC6651B00284A002D74CF /* JSON Parsing.swift */,
 				095AC6661B00284A002D74CF /* Serializable.swift */,
 			);
-			name = Serializing;
+			name = "JSON & Serialization";
 			sourceTree = "<group>";
 		};
 		095AC6761B002B4B002D74CF /* View Controllers */ = {
