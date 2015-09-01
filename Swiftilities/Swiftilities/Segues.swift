@@ -1,5 +1,5 @@
 //
-//  CustomSegues.swift
+//  Segues.swift
 //  Switiflities
 //
 //  Created by Yariv on 12/29/14.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-// MARK:- Custom segues
+// MARK:- Segues
 
-enum CustomSegues: String {
+enum Segues: String {
   case Show = "Show"
   case Dismiss = "Dismiss"
   
